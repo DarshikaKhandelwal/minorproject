@@ -1,0 +1,153 @@
+html{
+    font-family: Ubuntu, sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    height: 103%; width: 103%;
+    background-image: url("https://images.unsplash.com/photo-1636576109679-6f23fdc040c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1721&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -10 -10 -10 -10;
+}
+
+section.main{
+    height: fit-content;
+}
+
+article.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div#appName{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+
+    font-size: 5rem;
+    color: white;
+}
+div#appSubName{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+
+    color: white;
+    font-size: 2rem;
+    text-decoration-line: underline;
+}
+
+div#formBox{
+    display: flex;
+    margin: auto;
+    margin-top: 32px;
+    justify-content: center;
+    
+    overflow: scroll;
+    width: 500px;
+    height: 55%;
+    padding: 24px;
+    border-radius: 30px;
+
+    background-color: #ffffff40 ;
+
+    
+    /* background-color: blueviolet; */
+
+}
+
+button{
+    margin: auto;
+    justify-self: flex-start;
+
+    padding: 12px 18px 12px 18px;
+    border-radius: 16px;
+    border: none;
+    background-color: black;
+    
+    
+    color: white;
+    transition: 250ms ease-in;
+
+}
+
+button#submitButton:hover{
+    margin: auto;
+    justify-self: flex-start;
+
+    padding: 12px 18px 12px 18px;
+    border-radius: 16px;
+    background-color: white;
+    border: black 1px solid;
+    
+    color: black;
+    
+    transition: 250ms ease-in;
+
+}
+
+section.main form{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    
+    padding: 12px 18px 12px 18px;
+    border-radius: 16px;
+    /* background-color: black; */
+
+}
+
+div#form{
+    display: flex;
+    width: 100%;
+}
+
+form#form{
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    justify-self: flex-start;
+    gap: 16px;
+    width: 80%;
+}
+
+.form-label{
+    color: white;
+}
+
+.form-input{
+    border-radius: 4px;
+    height: 40px;
+
+    border: none;
+    padding: 0px 8px 0px 8px;
+
+    transition: 250ms ease-in-out;
+
+}
+
+
+.form-input:hover{
+    border-radius: 4px;
+    height: 40px;
+    
+    border: orange 2px solid;
+    padding: 0px 8px 0px 8px;
+    
+    transition: 120ms ease-in-out;
+}
+
+.form-input:focus{
+    border-radius: 4px;
+    height: 40px;
+    
+    border: orange 2px solid;
+    outline: orange 1px solid;
+    padding: 0px 8px 0px 8px;
+    
+    transition: 120ms ease-in-out;
+}
