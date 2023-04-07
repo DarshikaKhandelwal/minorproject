@@ -60,35 +60,6 @@ div#formBox{
 
 }
 
-button{
-    margin: auto;
-    justify-self: flex-start;
-
-    padding: 12px 18px 12px 18px;
-    border-radius: 16px;
-    border: none;
-    background-color: black;
-    
-    
-    color: white;
-    transition: 250ms ease-in;
-
-}
-
-button#submitButton:hover{
-    margin: auto;
-    justify-self: flex-start;
-
-    padding: 12px 18px 12px 18px;
-    border-radius: 16px;
-    background-color: white;
-    border: black 1px solid;
-    
-    color: black;
-    
-    transition: 250ms ease-in;
-
-}
 
 section.main form{
     display: flex;
@@ -151,3 +122,38 @@ form#form{
     
     transition: 120ms ease-in-out;
 }
+
+button{
+    margin: auto;
+    justify-self: flex-start;
+
+    padding: 12px 18px 12px 18px;
+    border-radius: 16px;
+    border: none;
+    background-color: black;
+    
+    
+    color: white;
+    transition: 250ms ease-in;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+button#submitButton:hover{
+    margin: auto;
+    justify-self: flex-start;
+
+    padding: 12px 18px 12px 18px;
+    border-radius: 16px;
+    background-color: white;
+    border: black 1px solid;
+    
+    color: black;
+    
+    transition: 250ms ease-in;
+
+}
+
+::-webkit-scrollbar {
+    width: 00px;
+  }
